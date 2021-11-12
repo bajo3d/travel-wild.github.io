@@ -20,7 +20,7 @@ body {
   font-weight: 700;
   font-size: 1.2em;
   text-transform: uppercase;
-  margin-right: 0.5em;
+  padding-right: 0.5em;
 }
 
 .custom-navbar #navbarNav .nav-item .nav-link:hover {
@@ -48,11 +48,6 @@ section {
   background-repeat: no-repeat;
   width: 100%;
   height: 900px;
-}
-
-section .container {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 section h1 {
@@ -116,6 +111,15 @@ section button:hover {
     color: black;
     font-weight: 300;
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
 }
 /*# sourceMappingURL=main.css.map */

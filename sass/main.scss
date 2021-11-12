@@ -33,7 +33,7 @@ body {
         font-weight: 700;
         font-size: 1.2em;
         text-transform: uppercase;
-        margin-right: 0.5em;
+        padding-right: 0.5em;
 
         &:hover {
           color: $tertiaryColor;
@@ -53,7 +53,6 @@ body {
   form {
     span {
       color: $primaryColor;
-
       border: none;
       background-color: transparent;
     }
@@ -68,11 +67,6 @@ section {
   background-repeat: no-repeat;
   width: 100%;
   height: 900px;
-
-  .container {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 
   h1 {
     margin-top: 3.4em;
@@ -138,5 +132,14 @@ section {
       font-weight: 300;
       font-size: 1em;
     }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
 }
