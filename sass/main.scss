@@ -111,7 +111,7 @@ section {
 
   @media screen and (max-width: 992px) {
     h1 {
-      margin-top: 2em;
+      margin-top: 1em;
       color: $primaryColor;
       font-weight: 900;
       font-size: 2.5em;
@@ -127,10 +127,28 @@ section {
     }
 
     p {
-      margin-top: 3em;
+      margin-top: 7em;
       color: black;
       font-weight: 300;
       font-size: 1em;
+    }
+
+    button {
+      margin-top: 2em;
+      margin-bottom: 10em;
+      padding: 2px 10px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.3em;
+      color: $primaryColor;
+      border: 2px solid $primaryColor;
+      border-radius: 2em;
+      background-color: transparent;
+
+      &:hover {
+        background-color: $primaryColor;
+        color: white;
+      }
     }
   }
 }
@@ -141,5 +159,6 @@ section {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    height: 70%;
   }
 }

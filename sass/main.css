@@ -93,7 +93,7 @@ section button:hover {
 
 @media screen and (max-width: 992px) {
   section h1 {
-    margin-top: 2em;
+    margin-top: 1em;
     color: #063331;
     font-weight: 900;
     font-size: 2.5em;
@@ -107,10 +107,26 @@ section button:hover {
     text-transform: uppercase;
   }
   section p {
-    margin-top: 3em;
+    margin-top: 7em;
     color: black;
     font-weight: 300;
     font-size: 1em;
+  }
+  section button {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #063331;
+    border: 2px solid #063331;
+    border-radius: 2em;
+    background-color: transparent;
+  }
+  section button:hover {
+    background-color: #063331;
+    color: white;
   }
 }
 
@@ -120,6 +136,7 @@ section button:hover {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    height: 70%;
   }
 }
 /*# sourceMappingURL=main.css.map */
